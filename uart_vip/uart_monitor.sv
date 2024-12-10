@@ -1,4 +1,4 @@
-      class uart_monitor extends uvm monitor;
+class uart_monitor extends uvm monitor;
   `uvm_component_uti1s(uart_monitor)
 
   virtuaL uart_if lhs_if;
