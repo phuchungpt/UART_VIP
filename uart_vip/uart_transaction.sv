@@ -1,4 +1,4 @@
-class uart_transaction extends uvm sequence item;
+class uart_transaction extends uvm sequence_item;
 
   rand bit [8:0] send_data;
   bit      [8:0] receive_data;
