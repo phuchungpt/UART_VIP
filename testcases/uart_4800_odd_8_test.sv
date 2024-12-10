@@ -1,10 +1,10 @@
 class uart_4800_odd_8_test extends uart_base_test; 
-  `uvm_component_utils (uart_4800_odd_8_test.sv)
+  `uvm_component_utils (uart_4800_odd_8_test)
   
   uart_trans_sequence lhs_seq; 
   uart_trans_sequence rhs_seq;
   
-  function new(string name="uart_4800_odd_8_test.sv", uvm_component parent);
+  function new(string name="uart_4800_odd_8_test", uvm_component parent);
     super.new(name, parent);
     super.set_lhs_baud_rate (4800);
     super.set_lhs_parity_mode(1);
@@ -30,4 +30,4 @@ class uart_4800_odd_8_test extends uart_base_test;
       
     phase.drop_objection(this);
   endtask
-endclass: uart_4800_odd_8_test.sv
+endclass: uart_4800_odd_8_test
