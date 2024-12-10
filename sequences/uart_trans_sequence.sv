@@ -1,9 +1,9 @@
-class uart_lhs_trans_sequence extends uvm_sequence #(uart_transaction);
-  `uvm_object_utils(uart_lhs_trans_sequence)
+class uart_trans_sequence extends uvm_sequence #(uart_transaction);
+  `uvm_object_utils(uart_trans_sequence)
 
   uvm_event done_event;
 
-  function new(string name="uart_lhs_trans_sequence");
+  function new(string name="uart_trans_sequence");
     super.new(name);
   endfunction
 
