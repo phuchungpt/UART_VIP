@@ -11,7 +11,7 @@ class uart_different_data_width_test extends uart_base_test;
     super.set_lhs_parity_mode(0);
     super.set_lhs_data_width(8);
     super.set_lhs_stop_bit(1);
-    super.set_rhs_baud_rate (115200);
+    super.set_rhs_baud_rate (4800);
     super.set_rhs_parity_mode(0);
     super.set_rhs_data_width(5);
     super.set_rhs_stop_bit(1);
