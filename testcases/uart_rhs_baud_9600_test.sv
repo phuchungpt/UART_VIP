@@ -30,4 +30,4 @@ class uart_rhs_baud_9600_test extends uart_base_test;
       
     phase.drop_objection(this);
   endtask
-endclass: uart_rhs_baud_9600_test
+endclass: uart_baud_9600_test
