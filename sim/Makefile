@@ -1,4 +1,4 @@
-  ## --------------------------------------------------------------
+## --------------------------------------------------------------
 # This file created by Huy Nguyen
 # Updated date: 01/09/2024
 # Example run string: make TESTNAME={name_of_testcase} {optional}
