@@ -14,8 +14,8 @@ class uart_4800_odd_8_test extends uart_base_test;
     super.set_rhs_parity_mode(1);
     super.set_rhs_data_width(8);
     super.set_rhs_stop_bit(2);
-    super.set_lhs_directory(1);
-    super.set_rhs_directory(0);
+    super.set_lhs_directory(2);
+    super.set_rhs_directory(2);
     uvm_config_db#(int)::set(null,"*","rhs_parity_mode", rhs_parity_mode); 
     uvm_config_db# (int)::set(null,"*","rhs_data_width", rhs_data_width); 
   endfunction
