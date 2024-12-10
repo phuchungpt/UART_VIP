@@ -28,4 +28,4 @@ class uart_lhs_baud_19200_test extends uart_base_test;
       
     phase.drop_objection(this);
   endtask
-endclass: uart_lhs_baud_4800_test
+endclass: uart_lhs_baud_19200_test
